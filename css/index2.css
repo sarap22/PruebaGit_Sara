@@ -1,0 +1,250 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12,fr);
+    grid-column: 1/-1;
+    width: 90%;
+    max-width: 1100%;
+    margin: auto;
+    gap: 10px;
+    overflow: hidden;/* todo lo que este fuera del grid, no salga */
+    align-items: center;
+}
+.si{
+    font-size: 20px;
+}
+
+[class^="fa-solid"]{
+    /*todos los elementos que tengan la clase far fa*/
+font-size: 50px;
+padding: 10px;
+}
+.weight-400{
+    font-weight: 400;
+}
+.weight-600{
+    font-weight: 600;
+}
+.parrafo{
+
+    margin-bottom: 20px;
+}
+.header{
+    height: 200px;
+display: flex;
+justify-content: space-around;
+margin-left: 500px;
+}
+.img-h{
+width: 100%;
+height: auto;
+grid-column: 7/13;
+box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+.img{
+
+width: 95%;
+max-width: 400px;
+}
+
+.texto{
+    grid-column: 1/7;
+    padding-right: 20px;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+
+.texto p{
+text-align: justify;
+}
+
+.cdu{
+    width: 130px;
+    background-color: #000000;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;/*0 hacia los lados*/
+text-decoration: none;
+}
+
+
+.s{
+    display: flex;
+
+}       
+        .items{
+        display: flex;
+            margin: 10px;
+            text-align: center;
+            width: 99%;
+
+        }
+        
+        .item{
+ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+padding: 20px;
+align-items: center;
+
+}
+
+#ii{
+
+    width: 110%;
+}
+[class^="fa-brands"]{
+    /*todos los elementos que tengan la clase far fa*/
+font-size: 50px;
+margin-top: 60px;
+margin-bottom: 50px;
+}
+[class^="far fa"]{
+    /*todos los elementos que tengan la clase far fa*/
+font-size: 50px;
+text-align: center;
+}
+
+#uno{
+font-size: 50px;
+margin-top: 55px;
+margin-bottom: 30px;
+}
+
+.tits{
+margin: 20px 0;
+
+}
+.au{
+    background: #000000;
+    color: #ffffff;
+    height: auto;
+    padding-bottom: 60px;
+}
+.tm{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+margin: 10px;
+padding: 15px;
+}
+
+.tm h3{
+padding-bottom: 15px;
+}
+
+.tau{
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+.tau.parrafo{
+color: #ffffff;
+}
+.numero a{
+    text-decoration: none;
+    color: #ffffff;
+    }
+    
+.numeros{
+grid-column: 1/-1;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+
+.numero{
+    text-align: center;
+font-size: 30px;
+width: 22%;
+padding-top: 40px;
+}
+footer{
+    background: #000000;
+    color: #ffffff; 
+    text-align: center;
+padding: 20px 0;
+justify-content: space-around;
+flex-wrap: wrap;
+
+}
+.tf{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+[class^="fi"]a{
+ color: #ffffff;
+}
+
+[class^="fi"]{
+    text-align: center;
+font-size: 30px;
+width: 22%;
+
+}
+.btn-group{
+    margin-top: 30px;
+}
+.o{
+    margin-top: 80px;
+}
+
+@media screen and (min-width:320px) and (max-width:900px){
+
+    .header{
+        margin: 0px;
+        margin-left: 30px;
+        margin-top: 50px;
+        height: 180px;
+
+    }
+    .items{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        margin-left: 1px;
+        width: 90%;
+    }
+    .items p{
+  font-size: 13px;
+    }
+    
+    #it1{
+        width: 110%;
+    }
+    .au{
+        width: 90%;
+        margin-left: 15px;
+        height: 700px;   
+    }
+    .numeros{
+
+        display: flex;
+        flex-direction: column;
+    }
+    .numero{
+    font-size: 20px;
+    margin-left: 70px;
+    }
+    .tmg{
+    margin: 20px;
+    }
+
+    .tm{
+    padding: 15px;
+    font-size: 15px;
+    }
+    
+    .tf{
+    margin: 10px;
+    }
+
+    .fi1{
+    margin-left: 10px;
+    }
+
+    }

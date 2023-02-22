@@ -1,0 +1,256 @@
+body{
+    border: 10px solid#8b8a8d;
+    border-radius: 2px;
+}
+.service{
+  display: flex;
+  background-color: rgba(98, 98, 98,0.2);
+}
+#s1{
+  width: 3%;
+  height: 40px;
+  padding: 5px;
+  background-color: #ff0000;
+  border-radius: 100%;
+  margin: 5px;
+}
+
+#s2{
+    width: 3%;
+    height: 40px;
+    padding: 5px;
+    background-color: #177ec7;
+    border-radius: 100%;
+    margin: 5px;
+  }
+  
+#s3{
+    width: 3%;
+    height: 40px; 
+    padding: 5px;
+    background-color: #0e841c;
+    border-radius: 100%;
+    margin: 5px;
+  }
+
+  header{
+    display: grid;
+}
+.cont{
+  background-color: #ffffff;
+  display: grid;
+  grid-gap: 10px; /*margin interno*/
+  grid-template-rows: 58px 58px 58px 58px;/*altura*/
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+.cont .d1{
+  display: flex;
+  background-color: #000000;
+  grid-column-start: 1;
+  grid-column-end:5;
+  grid-row-start: 5;
+  grid-row-end: 29;
+  margin-left: 10px;
+}
+
+
+.cont .d2{
+    background-color: #000000;    
+    grid-column-start: 7;
+    grid-column-end:5;
+    grid-row-start: 5;
+    grid-row-end: 29;
+}
+
+.cont .d3{
+    display: flex;
+    background-color: #000000;
+    grid-column-start: 1;
+    grid-column-end:5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    margin: 10px;
+}
+
+.cont .d4{
+    background-color: #000000;
+    grid-column-start: 4;
+    grid-column-end:6;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    margin-bottom: 10px;
+    border-left: 13px solid #ffffff;
+}
+
+.cont .d5{
+
+    background-color: #da3030;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.cont .d6{
+
+    background-color: #da3030;
+    grid-column-start: 3;
+    grid-column-end:2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+
+}
+.cont .d7{
+
+    background-color: #da3030;
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start:3;
+    grid-row-end: 5;
+    margin-left: 20px;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+
+.cont .d8{
+
+    background-color: #da3030;
+    grid-column-start: 3;
+    grid-column-end:2;   
+    grid-row-start:3;
+    grid-row-end: 5;
+    margin-left: 20px;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+
+.cont .d9{
+
+    background-color: #da3030;
+    grid-column-start: 4;
+    grid-column-end:3;
+    grid-row-start:3;
+    grid-row-end: 5;
+    margin-left: 20px;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+
+.cont .d10{
+
+    background-color: #da3030;
+    grid-column-start: 3;
+    grid-column-end:3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+} 
+
+.cont .d11{
+    background-color: #da3030;
+    grid-column-start: 4;
+    grid-column-end:5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-left: 40px;
+margin-top: 20px;
+}
+
+.cont .d12{
+    background-color: #da3030;
+    grid-column-start: 5;
+    grid-column-end:5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    margin-right: 40px;
+    margin-bottom: 30px;
+margin-top: 60px;
+}
+
+.cont .d13{
+
+    background-color: #da3030;
+grid-column-start: 6;
+grid-row-start: 1;
+grid-row-end: 1;
+color: #000000;
+}
+
+.cont .d14{
+
+    background-color: #da3030;
+    grid-column-start: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.cont .d15{
+
+    background-color: #da3030;
+    grid-column-start: 6;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.cont .d16{
+
+    background-color: #da3030;
+    grid-column-start: 6;
+    grid-row-start: 4;
+    grid-row-end: 4;
+margin-bottom: 9px;
+}
+
+.cont .d17{
+
+    background-color: #da3030;
+    grid-column-start: 4;
+    grid-column-end:3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-left: 20px;
+ 
+}
+
+.cont .d18{
+
+    background-color: #da3030;
+    grid-column-start: 2;
+    grid-column-end:2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-left: 20px;
+ 
+}
+
+.cont .d19{
+
+    background-color: #da3030;
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-left: 20px;
+}
+
+.cont .d20{
+
+    background-color: #da3030;
+    grid-column-start: 5;
+    grid-column-end:7;
+    grid-row-start:15;
+    grid-row-end: 29;
+margin-left: 200px;
+margin-right: 150px;
+}
